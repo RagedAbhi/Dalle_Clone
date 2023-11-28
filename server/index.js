@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 app.use(cors(
     {
-        origin: ["https://dalle-clone-backend.vercel.app"],
+        origin: ["https://dalle-clone-lemon.vercel.app"],
         methods: ["GET", "POST"],
         credentials: true
     }
